@@ -7,16 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A84E33D2C11B17E001CCB03 /* AddEditTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A84E33C2C11B17E001CCB03 /* AddEditTransactionView.swift */; };
+		3A84E3402C11B91B001CCB03 /* View + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A84E33F2C11B91B001CCB03 /* View + Extensions.swift */; };
+		3A84E3422C11C26A001CCB03 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A84E3412C11C26A001CCB03 /* Utils.swift */; };
+		3A84E3442C11C339001CCB03 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A84E3432C11C339001CCB03 /* Category.swift */; };
+		3A84E34A2C11DDD0001CCB03 /* GroupInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A84E3492C11DDD0001CCB03 /* GroupInputView.swift */; };
+		3A84E34C2C11EC0D001CCB03 /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A84E34B2C11EC0D001CCB03 /* Sorting.swift */; };
+		3A84E34E2C11ED04001CCB03 /* SortingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A84E34D2C11ED04001CCB03 /* SortingView.swift */; };
+		3A84E3502C1202D3001CCB03 /* TransactionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A84E34F2C1202D3001CCB03 /* TransactionsListView.swift */; };
+		3A84E3522C1210D6001CCB03 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A84E3512C1210D6001CCB03 /* Transaction.swift */; };
+		3A84E3552C124BB7001CCB03 /* SwipeActions in Frameworks */ = {isa = PBXBuildFile; productRef = 3A84E3542C124BB7001CCB03 /* SwipeActions */; };
 		3ABD3B642C10FE7E0085D1BD /* CashDiaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABD3B632C10FE7E0085D1BD /* CashDiaryApp.swift */; };
-		3ABD3B662C10FE7E0085D1BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABD3B652C10FE7E0085D1BD /* ContentView.swift */; };
+		3ABD3B662C10FE7E0085D1BD /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABD3B652C10FE7E0085D1BD /* DashboardView.swift */; };
 		3ABD3B682C10FE7F0085D1BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ABD3B672C10FE7F0085D1BD /* Assets.xcassets */; };
 		3ABD3B6B2C10FE7F0085D1BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ABD3B6A2C10FE7F0085D1BD /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A84E33C2C11B17E001CCB03 /* AddEditTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditTransactionView.swift; sourceTree = "<group>"; };
+		3A84E33F2C11B91B001CCB03 /* View + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + Extensions.swift"; sourceTree = "<group>"; };
+		3A84E3412C11C26A001CCB03 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		3A84E3432C11C339001CCB03 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		3A84E3492C11DDD0001CCB03 /* GroupInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupInputView.swift; sourceTree = "<group>"; };
+		3A84E34B2C11EC0D001CCB03 /* Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
+		3A84E34D2C11ED04001CCB03 /* SortingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingView.swift; sourceTree = "<group>"; };
+		3A84E34F2C1202D3001CCB03 /* TransactionsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsListView.swift; sourceTree = "<group>"; };
+		3A84E3512C1210D6001CCB03 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		3ABD3B602C10FE7E0085D1BD /* CashDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ABD3B632C10FE7E0085D1BD /* CashDiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashDiaryApp.swift; sourceTree = "<group>"; };
-		3ABD3B652C10FE7E0085D1BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3ABD3B652C10FE7E0085D1BD /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		3ABD3B672C10FE7F0085D1BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3ABD3B6A2C10FE7F0085D1BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -26,12 +45,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A84E3552C124BB7001CCB03 /* SwipeActions in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A84E33E2C11B8C7001CCB03 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3A84E33F2C11B91B001CCB03 /* View + Extensions.swift */,
+				3A84E3412C11C26A001CCB03 /* Utils.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		3ABD3B572C10FE7E0085D1BD = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +80,10 @@
 		3ABD3B622C10FE7E0085D1BD /* CashDiary */ = {
 			isa = PBXGroup;
 			children = (
+				3A84E33E2C11B8C7001CCB03 /* Helpers */,
+				3ABD3B722C1100550085D1BD /* Model */,
+				3ABD3B712C11004C0085D1BD /* View */,
 				3ABD3B632C10FE7E0085D1BD /* CashDiaryApp.swift */,
-				3ABD3B652C10FE7E0085D1BD /* ContentView.swift */,
 				3ABD3B672C10FE7F0085D1BD /* Assets.xcassets */,
 				3ABD3B692C10FE7F0085D1BD /* Preview Content */,
 			);
@@ -65,6 +96,44 @@
 				3ABD3B6A2C10FE7F0085D1BD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3ABD3B712C11004C0085D1BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3ABD3B742C11007D0085D1BD /* Component */,
+				3ABD3B732C1100740085D1BD /* Screen */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3ABD3B722C1100550085D1BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A84E3432C11C339001CCB03 /* Category.swift */,
+				3A84E34B2C11EC0D001CCB03 /* Sorting.swift */,
+				3A84E3512C1210D6001CCB03 /* Transaction.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3ABD3B732C1100740085D1BD /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				3ABD3B652C10FE7E0085D1BD /* DashboardView.swift */,
+				3A84E33C2C11B17E001CCB03 /* AddEditTransactionView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		3ABD3B742C11007D0085D1BD /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				3A84E3492C11DDD0001CCB03 /* GroupInputView.swift */,
+				3A84E34D2C11ED04001CCB03 /* SortingView.swift */,
+				3A84E34F2C1202D3001CCB03 /* TransactionsListView.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +152,9 @@
 			dependencies = (
 			);
 			name = CashDiary;
+			packageProductDependencies = (
+				3A84E3542C124BB7001CCB03 /* SwipeActions */,
+			);
 			productName = CashDiary;
 			productReference = 3ABD3B602C10FE7E0085D1BD /* CashDiary.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +183,9 @@
 				Base,
 			);
 			mainGroup = 3ABD3B572C10FE7E0085D1BD;
+			packageReferences = (
+				3A84E3532C124BB7001CCB03 /* XCRemoteSwiftPackageReference "SwipeActions" */,
+			);
 			productRefGroup = 3ABD3B612C10FE7E0085D1BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +212,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ABD3B662C10FE7E0085D1BD /* ContentView.swift in Sources */,
+				3A84E3522C1210D6001CCB03 /* Transaction.swift in Sources */,
+				3A84E34A2C11DDD0001CCB03 /* GroupInputView.swift in Sources */,
+				3A84E3422C11C26A001CCB03 /* Utils.swift in Sources */,
+				3A84E3402C11B91B001CCB03 /* View + Extensions.swift in Sources */,
+				3A84E33D2C11B17E001CCB03 /* AddEditTransactionView.swift in Sources */,
+				3ABD3B662C10FE7E0085D1BD /* DashboardView.swift in Sources */,
+				3A84E3502C1202D3001CCB03 /* TransactionsListView.swift in Sources */,
+				3A84E34E2C11ED04001CCB03 /* SortingView.swift in Sources */,
 				3ABD3B642C10FE7E0085D1BD /* CashDiaryApp.swift in Sources */,
+				3A84E34C2C11EC0D001CCB03 /* Sorting.swift in Sources */,
+				3A84E3442C11C339001CCB03 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +426,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3A84E3532C124BB7001CCB03 /* XCRemoteSwiftPackageReference "SwipeActions" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aheze/SwipeActions";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3A84E3542C124BB7001CCB03 /* SwipeActions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A84E3532C124BB7001CCB03 /* XCRemoteSwiftPackageReference "SwipeActions" */;
+			productName = SwipeActions;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3ABD3B582C10FE7E0085D1BD /* Project object */;
 }

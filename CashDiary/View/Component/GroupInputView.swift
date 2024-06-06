@@ -7,12 +7,25 @@
 
 import SwiftUI
 
-struct GroupInputView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct GroupInputView<Content: View>: View {
+    let title: String
+    let content: Content
+    
+    init(_ title: String, @ViewBuilder _ content: () -> Content) {
+        self.title = title
+        self.content = content()
     }
-}
-
-#Preview {
-    GroupInputView()
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 10, content: {
+            Text(title)
+                .font(.caption)
+                .foregroundStyle(.gray)
+                .hSpacing(.leading)
+            
+            GroupBox {
+                content
+            }
+        })
+    }
 }

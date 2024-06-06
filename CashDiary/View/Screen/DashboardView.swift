@@ -8,14 +8,31 @@
 import SwiftUI
 
 struct DashboardView: View {
+    @State var showAddTransactionView: Bool = false
+    @State private var sortBy = SortBy.date
+    @State private var orderBy = OrderBy.descending
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            ScrollView(.vertical) {
+                VStack(spacing: 0) {
+                    SortingView(sortBy: $sortBy, orderBy: $orderBy)
+                    TransactionsListView(sortBy: sortBy, orderBy: orderBy).padding(.vertical)
+                }
+                .padding(.horizontal)
+            }
+            .sheet(isPresented: $showAddTransactionView, onDismiss: {
+                self.showAddTransactionView = false
+            }) {
+                AddEditTransactionView()
+            }
+            .navigationBarItems(trailing: Button(action: onAddButtonClicked) { Text("Add") })
+            .navigationBarTitle("Expense Diary")
         }
-        .padding()
+    }
+    
+    func onAddButtonClicked() {
+        showAddTransactionView = true
     }
 }
 
